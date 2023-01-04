@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+    - name: accessibility_clients
+      description: "A daily number of platform accessibility clients (assistive technology), partitioned by day."
+
+
