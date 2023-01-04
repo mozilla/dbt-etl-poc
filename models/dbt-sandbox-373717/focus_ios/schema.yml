@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+    - name: focus_ios__metrics_clients_daily
+      description: "Daily per-client aggregates on top of metrics pings"
+
+

@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+    - name: focus_android_derived__metrics_clients_daily_v1
+      description: "Daily per-client aggregates on top of metrics pings"
+
+

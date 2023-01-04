@@ -4,6 +4,7 @@ version: 2
 models:
     - name: accessibility_clients_v1
       description: "A daily number of platform accessibility clients (assistive technology), partitioned by day."
+      custom: test
       columns:
           - name: submission_date
             description: "Date column"

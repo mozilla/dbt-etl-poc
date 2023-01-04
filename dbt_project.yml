@@ -37,6 +37,19 @@ models:
             telemetry:
                 materialized: view
                 +schema: telemetry
+            focus_android_derived:
+                materialized: incremental
+                +schema: focus_android_derived
+            focus_android:
+                materialized: view
+                +schema: focus_android
+            focus_ios_derived:
+                materialized: incremental
+                +schema: focus_ios_derived
+            focus_ios:
+                materialized: view
+                +schema: focus_ios
+
     # ascholtz-dev:
     #     test_derived:
     #         materialized: table
