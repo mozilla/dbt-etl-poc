@@ -1,0 +1,8 @@
+
+version: 2
+
+models:
+    - name: bigquery_tables_inventory_v1
+      description: "BigQuery tables."
+      config:
+        source_projects: ["dbt-sandbox-373717"]

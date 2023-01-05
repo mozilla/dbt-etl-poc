@@ -49,6 +49,9 @@ models:
             focus_ios:
                 materialized: view
                 +schema: focus_ios
+            monitoring_derived:
+                materialized: incremental
+                +schema: monitoring_derived
 
     # ascholtz-dev:
     #     test_derived:
