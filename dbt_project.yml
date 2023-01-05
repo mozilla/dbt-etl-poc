@@ -52,6 +52,12 @@ models:
             monitoring_derived:
                 materialized: incremental
                 +schema: monitoring_derived
+            udf:
+                materialized: udf
+                +schema: udf
+            analysis:
+                materialized: view
+                +schema: analysis
 
     # ascholtz-dev:
     #     test_derived:

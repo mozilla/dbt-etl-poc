@@ -1,0 +1,6 @@
+
+version: 2
+
+models:
+    - name: array_slice
+      description: "Return subset of array between start_index and end_index (inclusive)"
