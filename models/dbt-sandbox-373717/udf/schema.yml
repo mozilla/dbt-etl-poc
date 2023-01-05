@@ -4,3 +4,7 @@ version: 2
 models:
     - name: array_slice
       description: "Return subset of array between start_index and end_index (inclusive)"
+      tests:
+        - array_equals: 
+            actual: "udf.array_slice([1, 2, 3], 0, 2)"
+            expected: [1, 2, 3]
