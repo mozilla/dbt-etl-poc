@@ -1,0 +1,1 @@
+select * from {{ ref("test_python_script") }}
