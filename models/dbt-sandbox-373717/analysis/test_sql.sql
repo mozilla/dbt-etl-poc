@@ -1,1 +1,1 @@
-select 1 as a asdfasdf asdfsdfsdddd ddd
+select 1 as a 
