@@ -9,7 +9,7 @@ models:
             actual: "udf.array_slice([1, 2, 3], 0, 2)"
             expected: [1, 2, 3]
     - name: gunzip
-      description: "Unzips a GZIP string"
+      description: "Unzips a GZIP string; udf js"
       tests:
         - equals:
             actual: udf.gunzip(FROM_BASE64('H4sIAKnBGlwAA6uuBQBDv6ajAgAAAA=='))
