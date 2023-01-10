@@ -11,4 +11,3 @@ models:
             tests:
                 - not_null
 
-

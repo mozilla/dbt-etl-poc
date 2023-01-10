@@ -58,12 +58,5 @@ models:
             analysis:
                 materialized: view
                 +schema: analysis
-
-    # ascholtz-dev:
-    #     test_derived:
-    #         materialized: table
-    #         +schema: test_derived
-    #     test:
-    #         materialized: view
-    #         +schema: test
-
+seeds:
+    +schema: static
