@@ -7,3 +7,12 @@ models:
     - name: focus_android_derived__metrics_clients_last_seen_v1
       description: Window over the previous 28 days of the clients metrics daily table
 
+metrics:
+    - name: uri_count
+      label: URIs visited
+      description: Counts the total number of URIs visited.
+      model: ref('focus_android_derived__metrics_clients_daily_v1')
+      calculation_method: sum
+      expression: uri_count
+      timestamp: submission_date
+      time_grains: [day]
